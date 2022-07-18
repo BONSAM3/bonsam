@@ -1,0 +1,43 @@
+.main-cont {
+  padding: 2rem;
+}
+.header-content {
+  text-align: center;
+}
+.header-content h2 {
+  font-size: 2rem;
+}
+.future-cont .btn {
+  width: 70%;
+  padding: 0.9rem;
+  cursor: pointer;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 3rem 0;
+  gap: 1rem;
+}
+.future-cont {
+  background-color: #fff;
+  box-shadow: 0 2px 15px hsl(0deg 0% 90% / 50%);
+
+  padding: 3rem 1rem;
+  border-radius: 8px;
+}
+.future-cont h4 {
+  margin: 2rem 0;
+}
+@media (max-width: 790px) {
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 520px) {
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

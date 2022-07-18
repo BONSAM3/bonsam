@@ -1,0 +1,27 @@
+main {
+  padding: 2rem;
+}
+.header {
+  text-align: center;
+}
+.header h3 {
+  font-size: 2rem;
+}
+.teach {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 4rem 0;
+}
+p {
+  margin: 1rem 0;
+}
+.gridd img {
+  width: 100%;
+}
+@media (max-width: 950px) {
+  .teach {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

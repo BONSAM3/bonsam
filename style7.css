@@ -1,0 +1,90 @@
+main {
+  background: url(images/footer.svg);
+
+  padding: 2rem;
+}
+.google img {
+  width: 20px;
+}
+
+.google {
+  align-items: center;
+  background: hsla(0, 1%, 86%, 0.5);
+  border-radius: 10px;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.mini {
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+
+  padding: 3rem 0;
+}
+
+.line {
+  align-items: center;
+  color: hsla(0, 0%, 47%, 0.5);
+  display: grid;
+  font-size: 1.2rem;
+  grid-template-columns: 0.7fr 0.3fr 0.7fr;
+  margin: 1rem auto;
+  text-align: center;
+  width: 100%;
+}
+.line h3 {
+  align-items: center;
+}
+.line hr {
+  border-style: none;
+  border-bottom: 2px solid;
+  align-items: center;
+  text-align: center;
+}
+.norm-form {
+  display: block;
+}
+form {
+  grid-gap: 1rem;
+  /* display: grid; */
+  gap: 1rem;
+  grid-template-columns: 0.75fr 0.25fr;
+  margin: 2rem auto;
+  width: 80%;
+}
+.norm-form label {
+  margin-bottom: 0.7rem;
+}
+label {
+  display: block;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
+  cursor: default;
+}
+
+.norm-form input {
+  margin-bottom: 2rem;
+}
+input {
+  border: 3px solid #cecece;
+  border-radius: 5px;
+  padding: 1.2rem;
+  width: 100%;
+}
+.create-btn {
+  background-color: #3e0563;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+}
+span {
+  color: #fa9706;
+}

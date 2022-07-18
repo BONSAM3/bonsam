@@ -1,0 +1,124 @@
+@media (max-width: 1020px) {
+  .award,
+  .tekis {
+    display: flex;
+    flex-direction: column;
+  }
+  .image img {
+    width: 100%;
+  }
+  .celebrated-tekis2 img {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .talent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 950px) {
+  .nav-toggle {
+    display: block;
+  }
+  .nav-end i {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    margin: 1rem 0;
+    background-color: #fff;
+    /* box-shadow: 0 1px 0 hsl(0deg 0% 86% / 50%); */
+    /* display: none; */
+  }
+
+  .nav-end button {
+    display: block;
+    margin: 1rem 0;
+    width: 100%;
+    padding: 0.5rem;
+    /* display: none; */
+  }
+}
+
+@media (max-width: 895px) {
+  .enquires {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .strip,
+  .stripe {
+    width: 15%;
+  }
+}
+@media (max-width: 800px) {
+  .target {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-bottom: 2rem; */
+  }
+  .strip,
+  .stripe {
+    width: 15%;
+  }
+}
+@media (max-width: 700px) {
+  .flex-talent {
+    width: 100%;
+  }
+  .strip,
+  .stripe {
+    width: 17%;
+  }
+}
+@media (max-width: 560px) {
+  .talent {
+    display: flex;
+    flex-direction: column;
+  }
+  .enquires {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 4rem; */
+    margin: 0 auto;
+    width: 100%;
+  }
+  .brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: justify;
+    gap: 1rem;
+  }
+  .flex-enq {
+    width: 100%;
+  }
+  .strip,
+  .stripe {
+    width: 20%;
+  }
+}
+@media (max-width: 461px) {
+  .enquires {
+    width: 100%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .strip,
+  .stripe {
+    width: 25%;
+  }
+}

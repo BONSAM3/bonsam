@@ -1,0 +1,19 @@
+.main-input {
+  text-align: center;
+}
+.categories {
+  padding: 2rem;
+  margin: 1rem 0;
+}
+@media (max-width: 755px) {
+  .department {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 400px) {
+  .department {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

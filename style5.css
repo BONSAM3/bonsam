@@ -1,0 +1,40 @@
+main {
+  padding: 2rem;
+}
+.header {
+  text-align: center;
+}
+.header h3 {
+  font-size: 2rem;
+}
+.group {
+  margin: 2rem 0;
+}
+.global-tekis {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.horizon {
+  margin: 1rem 0;
+}
+.para {
+  line-height: 1.7rem;
+}
+@media (max-width: 1320px) {
+  .group {
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .global-tekis {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 615px) {
+  .glob-tekis img {
+    width: 100%;
+  }
+}
